@@ -39,7 +39,7 @@ public class MysticFireworkPlugin extends JavaPlugin implements Listener {
 
         // Registrar eventos y recetas
         getServer().getPluginManager().registerEvents(this, this);
-        registerRecipes();
+        // registerRecipes();
         getLogger().info("MysticFireworkPlugin enabled!");
     }
 
